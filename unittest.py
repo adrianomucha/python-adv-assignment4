@@ -2,7 +2,7 @@ from pymongo import MongoClient
 from unittest import TestCase, main
 #Replace with your module's name
 try:
-  from your_module.py import find_object, update_object, remove_object
+    from assignment.py import find_object, update_object, remove_object
 except ImportError, ie:
   def find_object(my_key):
     return None
